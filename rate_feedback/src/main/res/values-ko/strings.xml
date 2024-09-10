@@ -1,0 +1,21 @@
+<resources>
+    <string name="the_best_rating_star">최고 등급 별</string>
+    <string name="how_do_you_feel_about_the_app_your_feedback_is_important_to_us">앱에 대해 어떻게 생각하시나요? 귀하의 피드백은 우리에게 중요합니다</string>
+    <string name="oh_no_please_leave_us_some_feedback">아, 안 돼요! 피드백을 남겨주세요!</string>
+    <string name="we_like_you_too_thanks_for_your_feedback">저희도 당신을 좋아합니다! 피드백을 보내주셔서 감사합니다.</string>
+    <string name="rate">비율</string>
+    <string name="too_many_ads">광고가 너무 많습니다.</string>
+    <string name="the_app_is_hard_to_use">앱을 사용하기 어렵습니다.</string>
+    <string name="rate_us">평가해 주세요</string>
+    <string name="your_feedback_is_helpful">귀하의 피드백은 도움이 됩니다</string>
+    <string name="other">기타</string>
+    <string name="type_your_feedback_here">여기에 피드백을 입력하세요.</string>
+    <string name="i_don_t_want_to_see_ads">광고를 보고 싶지 않습니다</string>
+    <string name="i_don_t_know_how_to_use">사용 방법을 모르겠습니다.</string>
+    <string name="submit">제출</string>
+    <string name="rate_title_s1">안돼!\n피드백을 남겨주세요!</string>
+    <string name="rate_title_s2">안돼!\뭔가 잘못됐나요?</string>
+    <string name="rate_title_s3">의견을 보내주셔서 감사합니다!</string>
+    <string name="rate_title_s4">의견을 보내주셔서 \n감사합니다!</string>
+    <string name="rate_title_s5">와! 피드백을 보내주셔서 \n감사합니다!</string>
+</resources>

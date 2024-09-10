@@ -1,0 +1,21 @@
+<resources>
+    <string name="the_best_rating_star">Лучшая звезда рейтинга</string>
+    <string name="how_do_you_feel_about_the_app_your_feedback_is_important_to_us">Как вы относитесь к приложению? Нам важно ваше мнение</string>
+    <string name="oh_no_please_leave_us_some_feedback">О, нет! Пожалуйста, оставьте нам отзыв!</string>
+    <string name="we_like_you_too_thanks_for_your_feedback">Ты нам тоже нравишься! Спасибо за ваш отзыв</string>
+    <string name="rate">Оценить</string>
+    <string name="too_many_ads">Слишком много рекламы.</string>
+    <string name="the_app_is_hard_to_use"> Приложение сложно использовать.</string>
+    <string name="rate_us">Оцените нас</string>
+    <string name="your_feedback_is_helpful">Ваш отзыв полезен</string>
+    <string name="other">Другое</string>
+    <string name="type_your_feedback_here"> Введите здесь свой отзыв.</string>
+    <string name="i_don_t_want_to_see_ads">Я не хочу видеть рекламу</string>
+    <string name="i_don_t_know_how_to_use">Я не знаю, как использовать</string>
+    <string name="submit">Отправить</string>
+    <string name="rate_title_s1">О нет!\nПожалуйста, оставьте нам отзыв!</string>
+    <string name="rate_title_s2">О нет!\Что-то пошло не так?</string>
+    <string name="rate_title_s3">Спасибо за отзыв!</string>
+    <string name="rate_title_s4">Спасибо за отзыв!</string>
+    <string name="rate_title_s5">Ух ты! Спасибо за отзыв!</string>
+</resources>

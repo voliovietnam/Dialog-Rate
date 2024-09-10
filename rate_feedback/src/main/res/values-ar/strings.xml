@@ -1,0 +1,21 @@
+<resources>
+    <string name="the_best_rating_star">أفضل نجم تصنيف</string>
+    <string name="how_do_you_feel_about_the_app_your_feedback_is_important_to_us">ما هو شعورك تجاه التطبيق؟ ملاحظاتك مهمة بالنسبة لنا</string>
+    <string name="oh_no_please_leave_us_some_feedback"> أوه، لا! يرجى ترك لنا بعض ردود الفعل!</string>
+    <string name="we_like_you_too_thanks_for_your_feedback">نحن نحبك أيضًا! شكرا لملاحظاتك</string>
+    <string name="rate">معدل</string>
+    <string name="too_many_ads"> عدد كبير جدًا من الإعلانات</string>
+    <string name="the_app_is_hard_to_use">التطبيق صعب الاستخدام</string>
+    <string name="rate_us">قيمنا</string>
+    <string name="your_feedback_is_helpful">ملاحظاتك مفيدة</string>
+    <string name="other">أخرى</string>
+    <string name="type_your_feedback_here">اكتب ملاحظاتك هنا</string>
+    <string name="i_don_t_want_to_see_ads">لا أريد رؤية الإعلانات</string>
+    <string name="i_don_t_know_how_to_use">لا أعرف كيفية الاستخدام</string>
+    <string name="submit">إرسال</string>
+    <string name="rate_title_s1">أوه لا!\nيرجى ترك بعض التعليقات لنا!</string>
+    <string name="rate_title_s2">أوه لا!\هل حدث خطأ ما؟</string>
+    <string name="rate_title_s3">شكرًا لك على تعليقاتك!</string>
+    <string name="rate_title_s4">شكرًا \nعلى تعليقاتك!</string>
+    <string name="rate_title_s5"> واو! شكرًا \nعلى تعليقاتك!</string>
+</resources>

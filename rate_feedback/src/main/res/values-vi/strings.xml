@@ -1,0 +1,21 @@
+<resources>
+    <string name="the_best_rating_star">Ngôi sao đánh giá tốt nhất</string>
+    <string name="how_do_you_feel_about_the_app_your_feedback_is_important_to_us">Bạn cảm thấy thế nào về ứng dụng này? Phản hồi của bạn rất quan trọng đối với chúng tôi</string>
+    <string name="oh_no_please_leave_us_some_feedback">Ồ, không! Hãy để lại cho chúng tôi một số phản hồi!</string>
+    <string name="we_like_you_too_thanks_for_your_feedback">Chúng tôi cũng thích bạn! Cảm ơn phản hồi của bạn</string>
+    <string name="rate">Đánh giá</string>
+    <string name="too_many_ads">Quá nhiều quảng cáo</string>
+    <string name="the_app_is_hard_to_use">Ứng dụng khó sử dụng</string>
+    <string name="rate_us">Đánh giá chúng tôi</string>
+    <string name="your_feedback_is_helpful">Phản hồi của bạn rất hữu ích</string>
+    <string name="other">Khác</string>
+    <string name="type_your_feedback_here">Nhập phản hồi của bạn tại đây</string>
+    <string name="i_don_t_want_to_see_ads">Tôi không muốn xem quảng cáo</string>
+    <string name="i_don_t_know_how_to_use">Tôi không biết sử dụng</string>
+    <string name="submit">Gửi</string>
+    <string name="rate_title_s1">Ồ không!\nHãy để lại cho chúng tôi một số phản hồi!</string>
+    <string name="rate_title_s2">Ồ không!\Đã xảy ra lỗi?</string>
+    <string name="rate_title_s3">Cảm ơn bạn đã phản hồi!</string>
+    <string name="rate_title_s4">Cảm ơn phản hồi của bạn!</string>
+    <string name="rate_title_s5">Chà! Cảm ơn bạn đã phản hồi!</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="the_best_rating_star">The best rating star</string>
+    <string name="how_do_you_feel_about_the_app_your_feedback_is_important_to_us">How do you feel about the app? Your feedback is important to us</string>
+    <string name="oh_no_please_leave_us_some_feedback">Oh, no! Please leave us some feedback!</string>
+    <string name="we_like_you_too_thanks_for_your_feedback">We like you too! Thanks for your feedback</string>
+    <string name="rate">Rate</string>
+    <string name="too_many_ads">Too many ads</string>
+    <string name="the_app_is_hard_to_use">The app is hard to use</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="your_feedback_is_helpful">Your Feedback is Helpful</string>
+    <string name="other">Other</string>
+    <string name="type_your_feedback_here">Type your feedback here</string>
+    <string name="i_don_t_want_to_see_ads">I don\'t want to see ads</string>
+    <string name="i_don_t_know_how_to_use">I don\'t know how to use</string>
+    <string name="submit">Submit</string>
+
+
+    <string name="rate_title_s1">Oh no!\nPlease leave us some feedback!</string>
+    <string name="rate_title_s2">Oh no!\nSomething went wrong?</string>
+    <string name="rate_title_s3">Thank you \nfor your feedback!</string>
+    <string name="rate_title_s4">Thanks for \nyou feedback!</string>
+    <string name="rate_title_s5">Wow! Thanks for \nyou feedback!</string>
+
+</resources>

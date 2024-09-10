@@ -1,0 +1,21 @@
+<resources>
+    <string name="the_best_rating_star">A melhor estrela de avaliação</string>
+    <string name="how_do_you_feel_about_the_app_your_feedback_is_important_to_us">Como você se sente em relação ao aplicativo? Seu feedback é importante para nós</string>
+    <string name="oh_no_please_leave_us_some_feedback">Ah, não! Por favor, deixe-nos algum feedback!</string>
+    <string name="we_like_you_too_thanks_for_your_feedback">Nós também gostamos de você! Obrigado pelo seu feedback</string>
+    <string name="rate">Taxa</string>
+    <string name="too_many_ads">Muitos anúncios</string>
+    <string name="the_app_is_hard_to_use">O aplicativo é difícil de usar</string>
+    <string name="rate_us">Avalie-nos</string>
+    <string name="your_feedback_is_helpful">Seu feedback é útil</string>
+    <string name="other">Outro</string>
+    <string name="type_your_feedback_here">Digite seu feedback aqui</string>
+    <string name="i_don_t_want_to_see_ads">Não quero ver anúncios</string>
+    <string name="i_don_t_know_how_to_use">Não sei usar</string>
+    <string name="submit">Enviar</string>
+    <string name="rate_title_s1">Ah, não!\nPor favor, deixe-nos algum feedback!</string>
+    <string name="rate_title_s2">Ah, não!\Algo deu errado?</string>
+    <string name="rate_title_s3">Obrigado pelo seu feedback!</string>
+    <string name="rate_title_s4">Obrigado pelo seu feedback!</string>
+    <string name="rate_title_s5">Uau! Obrigado pelo seu feedback!</string>
+</resources>

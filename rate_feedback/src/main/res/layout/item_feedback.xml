@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="isSelect"
+            type="Boolean" />
+
+        <variable
+            name="isDarkTheme"
+            type="Boolean" />
+
+        <variable
+            name="title"
+            type="String" />
+
+        <variable
+            name="fontRes"
+            type="int" />
+
+        <variable
+            name="buttonColor"
+            type="int" />
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingVertical="@dimen/_8sdp">
+
+        <FrameLayout
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp">
+
+            <ImageView
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:src="@drawable/ic_ratio_unselect"
+                tools:src="@drawable/ic_ratio_unselect" />
+
+            <ImageView
+                isSelected="@{isSelect}"
+                image_tint_int="@{buttonColor}"
+                android:src="@drawable/ic_ratio_select"
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp" />
+        </FrameLayout>
+
+
+        <TextView
+            fontRes="@{fontRes}"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:includeFontPadding="false"
+            android:text="@{title}"
+            android:textColor="@{isDarkTheme? @color/White_FF:@color/text_black}"
+            android:textSize="@dimen/_14ssp"
+            tools:text="Less call screen than I expected" />
+    </LinearLayout>
+</layout>

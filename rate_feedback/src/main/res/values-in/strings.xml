@@ -1,0 +1,21 @@
+<resources>
+    <string name="the_best_rating_star">Bintang peringkat terbaik</string>
+    <string name="how_do_you_feel_about_the_app_your_feedback_is_important_to_us">Bagaimana perasaan Anda tentang aplikasi ini? Tanggapan Anda penting bagi kami</string>
+    <string name="oh_no_please_leave_us_some_feedback">Oh, tidak! Silakan tinggalkan kami umpan balik!</string>
+    <string name="we_like_you_too_thanks_for_your_feedback">Kami juga menyukaimu! Terima kasih atas tanggapan Anda</string>
+    <string name="rate">Nilai</string>
+    <string name="too_many_ads">Terlalu banyak iklan</string>
+    <string name="the_app_is_hard_to_use">Aplikasi ini sulit digunakan</string>
+    <string name="rate_us">Nilai Kami</string>
+    <string name="your_feedback_is_helpful">Masukan Anda Sangat Bermanfaat</string>
+    <string name="other">Lainnya</string>
+    <string name="type_your_feedback_here">Ketik tanggapan Anda di sini</string>
+    <string name="i_don_t_want_to_see_ads">Saya tidak ingin melihat iklan</string>
+    <string name="i_don_t_know_how_to_use">Saya tidak tahu cara menggunakannya</string>
+    <string name="submit">Kirim</string>
+    <string name="rate_title_s1">Oh tidak!\nSilakan beri kami masukan!</string>
+    <string name="rate_title_s2">Oh tidak!\Ada yang tidak beres?</string>
+    <string name="rate_title_s3">Terima kasih \atas masukan Anda!</string>
+    <string name="rate_title_s4">Terima kasih atas \nmasukan Anda!</string>
+    <string name="rate_title_s5">Wow! Terima kasih atas masukan Anda!</string>
+</resources>

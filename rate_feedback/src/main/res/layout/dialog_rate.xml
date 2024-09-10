@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="isDarkTheme"
+            type="Boolean" />
+
+        <variable
+            name="buttonColor"
+            type="int" />
+
+        <variable
+            name="fontRes"
+            type="int" />
+
+        <variable
+            name="fontResTitle"
+            type="int" />
+
+    </data>
+
+    <!--    android:background="@{isSelect? @drawable/bg_select_background_100sdp:@drawable/bg_unselect_background_100sdp}" />-->
+
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_radius_12sdp"
+        android:backgroundTint="@{isDarkTheme? @color/background_dark:@color/White_FF}">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/_24sdp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rate_us"
+                fontRes="@{fontResTitle}"
+                android:textColor="@{isDarkTheme? @color/White_FF:@color/text_black}"
+                android:textSize="@dimen/_16ssp" />
+
+            <ImageView
+                android:id="@+id/imgRate"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_marginTop="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/tvContent"
+                fontRes="@{fontRes}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_16ssp"
+                android:layout_marginTop="@dimen/_24ssp"
+                android:gravity="center"
+                android:text="@string/how_do_you_feel_about_the_app_your_feedback_is_important_to_us"
+                android:textColor="@{isDarkTheme? @color/White_FF:@color/text_black}"
+                android:textSize="@dimen/_14sdp" />
+
+            <com.volio.rate_feedback.custom_view.StartView
+                android:id="@+id/starView"
+                android:layout_width="@dimen/_244sdp"
+                android:layout_height="@dimen/_52sdp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:paddingHorizontal="@dimen/_10sdp"
+                app:sv_big_star_checked="@drawable/ic_star_checked"
+                app:sv_big_star_unchecked="@drawable/ic_star_unchecked"
+                app:sv_big_start_size="@dimen/_32sdp"
+                app:sv_color_shadow="#FFC700"
+                app:sv_star_checked="@drawable/ic_star_checked"
+                app:sv_star_unchecked="@drawable/ic_star_unchecked"
+                app:sv_start_size="@dimen/_32sdp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    fontRes="@{fontRes}"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/the_best_rating_star"
+                    android:textColor="@{isDarkTheme? @color/White_FF:@color/text_black}"
+                    android:textSize="@dimen/_14ssp" />
+
+                <ImageView
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:src="@drawable/ic_best_star" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvRate"
+                fontRes="@{fontResTitle}"
+                android:alpha="0.3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_48sdp"
+                android:layout_marginHorizontal="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/bg_button"
+                background_tint_int="@{buttonColor}"
+                android:clickable="false"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="@string/rate"
+                android:textColor="@color/White_FF"
+                android:textSize="@dimen/_14ssp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgCancel"
+            android:layout_width="@dimen/_48sdp"
+            android:layout_height="@dimen/_48sdp"
+            android:layout_gravity="end"
+            android:src="@drawable/ic_cancel"
+            android:tint="@{isDarkTheme? @color/White_FF:@color/text_black}" />
+    </FrameLayout>
+</layout>

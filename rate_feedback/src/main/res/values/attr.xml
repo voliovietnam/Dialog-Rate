@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StartView">
+        <attr name="sv_star_unchecked" format="reference" />
+        <attr name="sv_star_checked" format="reference" />
+        <attr name="sv_big_star_unchecked" format="reference" />
+        <attr name="sv_big_star_checked" format="reference" />
+        <attr name="sv_start_size" format="dimension"/>
+        <attr name="sv_big_start_size" format="dimension"/>
+        <attr name="sv_color_shadow" format="color"/>
+    </declare-styleable>
+</resources>

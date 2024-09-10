@@ -1,0 +1,10 @@
+ar
+de
+es
+fr
+hi
+id
+ko
+pt
+ru
+vi

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <data>
+
+        <variable
+            name="isDarkTheme"
+            type="Boolean" />
+
+        <variable
+            name="buttonColor"
+            type="int" />
+
+        <variable
+            name="fontRes"
+            type="int" />
+
+        <variable
+            name="fontResTitle"
+            type="int" />
+
+    </data>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_radius_12sdp"
+        android:backgroundTint="@{isDarkTheme? @color/background_dark:@color/White_FF}">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_16ssp"
+            android:layout_marginVertical="@dimen/_24sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                fontRes="@{fontResTitle}"
+                android:textColor="@{isDarkTheme? @color/White_FF:@color/text_black}"
+
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_32sdp"
+                android:text="@string/your_feedback_is_helpful"
+                android:textSize="@dimen/_16ssp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvFeedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:orientation="vertical"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+            <EditText
+                android:id="@+id/edFeedback"
+                fontRes="@{fontRes}"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_88sdp"
+                android:layout_marginTop="@dimen/_16ssp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:background="@drawable/bg_radius_ed_feedback"
+                android:gravity="top|start"
+                android:hint="@string/type_your_feedback_here"
+                android:padding="@dimen/_8sdp"
+                android:scrollbars="vertical"
+                android:textColor="@color/Black_20"
+                android:textColorHint="@color/Grey_Color"
+                android:textSize="@dimen/_14ssp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvFeedback"
+                android:textColor="@color/White_FF"
+                fontRes="@{fontResTitle}"
+                android:alpha="0.6"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_48sdp"
+                android:layout_marginTop="@dimen/_26sdp"
+                android:background="@drawable/bg_radius_16sdp"
+                android:backgroundTint="#DCDCDC"
+                android:clickable="false"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="@string/submit"
+                android:textSize="@dimen/_14ssp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgCancel"
+            android:layout_width="@dimen/_48sdp"
+            android:layout_height="@dimen/_48sdp"
+            android:layout_gravity="end"
+            android:tint="@{isDarkTheme? @color/White_FF:@color/text_black}"
+            android:src="@drawable/ic_cancel" />
+    </FrameLayout>
+</layout>
