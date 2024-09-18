@@ -2,7 +2,7 @@ plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
-
+    id 'maven-publish'
 }
 
 android {
@@ -43,4 +43,18 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.14.2'
     implementation 'com.github.voliovietnam:LibSdp:1.0.0'
 
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+
+                groupId = 'com.github.voliovietnam'
+                artifactId = 'Dialog-Rate'
+                version = '1.0.0'
+            }
+        }
+    }
 }

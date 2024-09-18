@@ -17,9 +17,8 @@ class MainActivity : AppCompatActivity() {
 //            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
 //            insets
 //        }
+
         RateDialog.Builder(this)
-            .setDarkTheme(false)
-            .setRateAtNumberStar(4)
             .build().show()
 
     }
